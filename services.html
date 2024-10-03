@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1A1A49; /* Dark purple background */
+            color: #fff; /* White text */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #282c6b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .highlight {
+            color: #FF5733;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            gap: 20px;
+        }
+
+        .service-box {
+            background-color: #fff;
+            color: #000;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .service-box h2 {
+            margin: 20px 0 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .service-box p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .service-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+
+        #contact {
+            background-color: #282c6b;
+            padding: 0rem;
+            border-radius: 8px;
+            margin: 1rem auto;
+            width: 50%;
+            text-align: center;
+        }
+
+        #contact h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        #contact .social-icons {
+            margin: 1.5rem 0;
+            display: flex; 
+            justify-content: center; 
+            gap: 20px; 
+        }
+
+        #contact .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        footer {
+            background-color: #282c6b;
+            padding: -5rem;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0rem 0;
+        }
+
+        footer small {
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">My Services</a></li>
+                <li><a href="skills.html">My Skills</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h1 class="title">My <span class="highlight">Services</span></h1>
+
+        <div class="services-container">
+            <div class="service-box">
+                <img src="https://img.icons8.com/ios-filled/50/000000/source-code.png" alt="Web Development Icon" class="service-icon">
+                <h2>Web Development</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://img.icons8.com/ios-filled/50/000000/network.png" alt="Network Configuration Icon" class="service-icon">
+                <h2>Network Configuration</h2>
+                <p>Network setup and installation: Design and implement LAN, WAN, and wireless networks tailored to their needs. Backup and disaster recovery: Implement secure backup systems and contingency plans for data loss prevention.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://img.icons8.com/ios-filled/50/000000/online-store.png" alt="One Line Service Icon" class="service-icon">
+                <h2>One Line Service</h2>
+                <p>Develop e-commerce platforms for online shopping and transactions. Implement cybersecurity measures to protect user data. Offer software as a service (SaaS) for various applications like project management or communication.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact">
+            <h2>Contact</h2>
+
+            <div class="social-icons">
+                <a href="https://wa.me/250782772430" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+250782772430</span>
+                </a>
+                <a href="https://www.facebook.com/Nimizero" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>Nimizero</span>
+                </a>
+                <a href="https://www.instagram.com/mizero_57" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>mizero_57</span>
+                </a>
+                <a href="mailto:mizeroit860@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>mizeroit860@gmail.com</span>
+                </a>
+                <a href="tel:+250782772430" title="Phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+250782772430</span>
+                </a>
+            </div>
+        </div>
+        
+        <p>Copyright &copy; 2024 | All Rights Reserved by Mizero</p>
+    </footer>
+
+</body>
+</html>

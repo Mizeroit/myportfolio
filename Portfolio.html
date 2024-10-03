@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizero Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #20244b;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #282c6b;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+        header nav ul li {
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header nav ul li a:hover {
+            color: #ff4500;
+        }
+        header .hire-me-btn {
+            background-color: white;
+            color: #282c6b;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        header .hire-me-btn:hover {
+            background-color: #ff4500;
+            color: white;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .content-left {
+            max-width: 50%;
+        }
+        .content-left h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff4500;
+        }
+        .content-left h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .content-left p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .content-right img {
+            width: 500px;
+            height: auto;
+            border-radius: 10px;
+        }
+       
+        #contact {
+            background-color: #282c6b;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 2rem auto;
+            width: 80%;
+            text-align: center;
+        }
+        #contact h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        #contact p {
+            margin: 0.5rem 0;
+        }
+        #contact .social-icons {
+            margin: 1.5rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        #contact .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        #contact .social-icons a span {
+            font-size: 1rem;
+        }
+        #contact form {
+            margin-top: 2rem;
+        }
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 8px;
+            border: none;
+        }
+        #contact textarea {
+            height: 150px;
+            resize: none;
+        }
+        #contact button {
+            background-color: #565c9a;
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        
+        footer {
+            background-color: #282c6b;
+            padding: -3rem; 
+            text-align: center;
+            font-size: -1rem; 
+        }
+        footer p {
+            margin: -2rem 0; 
+            color: white;
+        }
+        footer small {
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Mizero</div>
+        <nav>
+            <ul>
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">My Services</a></li>
+                <li><a href="skills.html">My Skills</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="hire-me-btn">Hire me</a>
+    </header>
+
+    <div class="content">
+        <div class="content-left">
+            <h1>Hi, It's me</h1>
+            <h2>NIYOMEZERO Vincent</h2>
+            <p>I'm a Network Administrator and Software Developer.</p>
+            <p>I configure large and small networks, and develop websites in just a few days.</p>
+        </div>
+        <div class="content-right">
+            <img src="Software-Developers.WEBP" alt="People working on computers">
+        </div>
+    </div>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="social-icons">
+                <a href="https://wa.me/250782772430" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+250782772430</span>
+                </a>
+                <a href="https://www.facebook.com/Nimizero" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>Nimizero</span>
+                </a>
+                <a href="https://www.instagram.com/mizero_57" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>mizero_57</span>
+                </a>
+                <a href="mailto:mizeroit860@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>mizeroit860@gmail.com</span>
+                </a>
+                <a href="tel:+250782772430" title="Phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+250782772430</span>
+                </a>
+            </div>
+        </section>
+
+        <p>&copy; 2024 | All Rights Reserved by Mizero</p>
+    </footer>
+
+</body>
+</html>
